@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Portfolio</title>
+  <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <h1>Your Name</h1>
+      <p class="tagline">Creative Designer | Developer | Innovator</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="your-image.jpg" alt="Your Image" class="profile-img">
+      <p>Hi, I’m Your Name, a passionate and results-driven Software Developer with 5+ years of experience in web development. I specialize in front-end and back-end development, creating dynamic and responsive websites and applications. My goal is to bring creative ideas to life through cutting-edge solutions.</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="container">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>JavaScript, HTML, CSS</li>
+      <li>React, Node.js, Express</li>
+      <li>UX/UI Design</li>
+      <li>Python, Django</li>
+      <li>Git & Version Control</li>
+      <li>Responsive Web Design</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="container">
+    <h2>Projects</h2>
+    <div class="project">
+      <img src="project1.jpg" alt="Project 1" class="project-img">
+      <h3>Portfolio Website</h3>
+      <p>Designed and developed a personal portfolio website using HTML, CSS, and JavaScript to showcase my work.</p>
+      <a href="https://github.com/your-username/portfolio" target="_blank">View Project</a>
+    </div>
+    <div class="project">
+      <img src="project2.jpg" alt="Project 2" class="project-img">
+      <h3>E-commerce Platform</h3>
+      <p>Built a full-stack e-commerce platform with React and Node.js, featuring payment integration and a product search feature.</p>
+      <a href="https://github.com/your-username/e-commerce" target="_blank">View Project</a>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="container">
+    <h2>Resume</h2>
+    <a href="resume.pdf" download class="btn">Download My Resume</a>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container">
+    <h2>Contact</h2>
+    <p>Email: your-email@example.com</p>
+    <p>Phone: 123-456-7890</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/your-profile" target="_blank">Your LinkedIn</a></p>
+    <p>GitHub: <a href="https://github.com/your-username" target="_blank">Your GitHub</a></p>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>© 2024 Your Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
