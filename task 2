@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Landing Page Example</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to Our Amazing Product</h2>
+            <p>Explore how we can help you improve your business.</p>
+            <a href="#signup" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <div class="container">
+            <h2>Our Features</h2>
+            <div class="features-container">
+                <div class="feature">
+                    <h3>Feature 1</h3>
+                    <p>Details about this feature and how it benefits users.</p>
+                </div>
+                <div class="feature">
+                    <h3>Feature 2</h3>
+                    <p>Details about this feature and how it benefits users.</p>
+                </div>
+                <div class="feature">
+                    <h3>Feature 3</h3>
+                    <p>Details about this feature and how it benefits users.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out!</p>
+            <a href="mailto:contact@landingpage.com" class="cta-button">Email Us</a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Landing Page Example. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
